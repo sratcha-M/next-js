@@ -1,10 +1,5 @@
-import styled from "styled-components";
+import HomePage from "./Home";
 
-const Home = () => {
-  return <Title>test</Title>;
-};
-export default Home;
-
-const Title = styled.h1`
-  color: red;
-`;
+export default function Index() {
+  return <HomePage />;
+}
